@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import {
   Car, Clock, CalendarDays, Plane, TrainFront,
-  MapPinned, RefreshCcw, HeartPulse, Sparkles, Church, Moon, LucideIcon
+  MapPinned, HeartPulse, Sparkles, Church, Moon, LucideIcon
 } from "lucide-react";
 
 type Service = { Icon: LucideIcon; title: string; desc: string };
@@ -38,11 +38,6 @@ const services: Service[] = [
     Icon: MapPinned,
     title: "Outstation Travel",
     desc: "Two-way long-distance travel to other districts and major cities, returning in the same cab.",
-  },
-  {
-    Icon: RefreshCcw,
-    title: "Two-Way Outstation Travel",
-    desc: "Travel to your destination and return in the same cab as part of your planned outstation trip.",
   },
   {
     Icon: HeartPulse,
