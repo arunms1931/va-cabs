@@ -179,44 +179,46 @@ export default function VehiclesSection() {
                 <Icon size={20} className="vh-icon" />
               </div>
 
-              <h3
-                style={{
-                  fontFamily: "var(--font-manrope)",
-                  fontWeight: 700,
-                  fontSize: "1.05rem",
-                  color: "var(--text-primary)",
-                  marginBottom: "8px",
-                }}
-              >
-                {label}
-              </h3>
+              <div style={{ display: "flex", flexDirection: "column", flex: 1, minWidth: 0 }}>
+                <h3
+                  style={{
+                    fontFamily: "var(--font-manrope)",
+                    fontWeight: 700,
+                    fontSize: "1.05rem",
+                    color: "var(--text-primary)",
+                    marginBottom: "8px",
+                  }}
+                >
+                  {label}
+                </h3>
 
-              <p
-                style={{
-                  color: "var(--text-secondary)",
-                  fontFamily: "var(--font-inter)",
-                  fontSize: "0.98rem",
-                  lineHeight: 1.6,
-                  marginBottom: "20px",
-                  flex: 1,
-                }}
-              >
-                {desc}
-              </p>
+                <p
+                  style={{
+                    color: "var(--text-secondary)",
+                    fontFamily: "var(--font-inter)",
+                    fontSize: "0.98rem",
+                    lineHeight: 1.6,
+                    marginBottom: "20px",
+                    flex: 1,
+                  }}
+                >
+                  {desc}
+                </p>
 
-              <div
-                style={{
-                  fontSize: "0.75rem",
-                  fontWeight: 600,
-                  color: "#888888",
-                  borderTop: "1px solid #f2f2f7",
-                  paddingTop: "12px",
-                  textTransform: "uppercase",
-                  letterSpacing: "0.5px",
-                  fontFamily: "var(--font-manrope)",
-                }}
-              >
-                {useCase}
+                <div
+                  style={{
+                    fontSize: "0.75rem",
+                    fontWeight: 600,
+                    color: "#888888",
+                    borderTop: "1px solid #f2f2f7",
+                    paddingTop: "12px",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.5px",
+                    fontFamily: "var(--font-manrope)",
+                  }}
+                >
+                  {useCase}
+                </div>
               </div>
             </motion.div>
           ))}
@@ -339,11 +341,21 @@ export default function VehiclesSection() {
           .vh-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 16px !important; }
         }
         @media (max-width: 640px) {
-          .vh-grid { grid-template-columns: 1fr !important; }
+          .vh-grid { grid-template-columns: 1fr !important; gap: 16px !important; }
+          .vh-card {
+            flex-direction: row !important;
+            align-items: flex-start !important;
+            gap: 16px !important;
+            padding: 20px 16px !important;
+          }
+          .vh-icon-box {
+            margin-bottom: 0 !important;
+          }
           .vh-footer {
             flex-direction: column !important;
             align-items: stretch !important;
             gap: 16px !important;
+            padding: 20px 16px !important;
           }
           .vh-cta-btn {
             width: 100%;

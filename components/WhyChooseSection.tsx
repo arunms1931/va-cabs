@@ -293,6 +293,14 @@ export default function WhyChooseSection() {
             width: 100%;
             justify-content: center;
           }
+          .timeline-item {
+            margin-bottom: 24px !important;
+            gap: 16px !important;
+          }
+          .timeline-node {
+            width: 38px !important;
+            height: 38px !important;
+          }
         }
 
         @media (min-width: 1200px) {

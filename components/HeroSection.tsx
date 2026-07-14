@@ -231,7 +231,7 @@ export default function HeroSection() {
           --hero-trust-icon-size: 15px;
           --hero-btn-icon-size: 18px;
         }
-        .hero-inner   { height: 100%; padding-bottom: 90px; }
+        .hero-inner   { height: 100%; padding-top: 90px; padding-bottom: 90px; }
 
         .hero-content {
           width: 100%;
@@ -379,7 +379,7 @@ export default function HeroSection() {
 
         @media (max-width: 768px) {
           .hero-section { height: auto !important; min-height: 100svh; }
-          .hero-inner { padding-top: 60px; padding-bottom: 90px !important; }
+          .hero-inner { padding-top: 130px !important; padding-bottom: 60px !important; }
           .hero-h1 { font-size: 2.5rem !important; }
           .hero-trust { flex-direction: column; align-items: flex-start; gap: 12px; }
           .hero-trust-sep { display: none !important; }

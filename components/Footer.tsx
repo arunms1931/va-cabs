@@ -232,7 +232,9 @@ export default function Footer() {
           .footer-grid > div:first-child { grid-column: 1 / -1; }
         }
         @media (max-width: 480px) {
-          .footer-grid { grid-template-columns: 1fr !important; }
+          .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 24px !important; }
+          .footer-grid > div:first-child { grid-column: 1 / -1; margin-bottom: 8px; }
+          .footer-grid > div:last-child { grid-column: 1 / -1; }
         }
         @media (prefers-reduced-motion: reduce) {
           .footer-underline {

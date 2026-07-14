@@ -86,3 +86,13 @@ body {
 .transition-smooth {
   transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
 }
+
+/* ─── Mobile Padding & Spacing Overrides ────────────────────────────── */
+@media (max-width: 768px) {
+  #services { padding: 56px 0 !important; }
+  #why { padding: 56px 0 !important; }
+  #our-cab { padding: 56px 0 !important; }
+  #areas { padding: 56px 0 !important; }
+  #reviews { padding: 48px 0 !important; }
+  #contact { padding: 56px 0 !important; }
+}

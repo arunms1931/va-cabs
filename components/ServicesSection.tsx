@@ -277,7 +277,13 @@ export default function ServicesSection() {
         }
         @media (max-width: 640px) {
           .services-grid { grid-template-columns: 1fr; gap: 16px; }
-          .srv-cta-banner { flex-direction: column; align-items: flex-start; }
+          .srv-card {
+            flex-direction: row !important;
+            align-items: flex-start !important;
+            gap: 16px !important;
+            padding: 20px 16px !important;
+          }
+          .srv-cta-banner { flex-direction: column; align-items: flex-start; padding: 20px 16px !important; }
           .srv-cta-btn { width: 100%; }
         }
 
