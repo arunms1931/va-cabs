@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle, Shield, Compass, Landmark, UserCheck } from "lucide-react";
 
-const WA_LINK = `https://wa.me/919283455152?text=Hi%20VA%20Cabs%2C%20I%20would%20like%20to%20book%20a%20cab.`;
+const WA_LINK = `https://wa.me/918072000428?text=Hi%20VA%20Cabs%2C%20I%20would%20like%20to%20book%20a%20cab.`;
 
 const benefits = [
   {
@@ -295,7 +295,7 @@ export default function WhyChooseSection() {
           }
         }
 
-        @media (min-width: 1600px) {
+        @media (min-width: 1200px) {
           .why-site-container { max-width: 1520px !important; }
           .why-split-layout { gap: 96px !important; }
         }

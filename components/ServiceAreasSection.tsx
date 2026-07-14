@@ -390,7 +390,7 @@ export default function ServiceAreasSection() {
           <p style={{ color: "var(--text-secondary)", fontSize: "0.95rem", fontFamily: "var(--font-inter)" }}>
             Based in Poonamallee / Thirumazhisai starting hub &bull; Confirm coverage for your specific trip:{" "}
             <a
-              href="https://wa.me/919283455152?text=Hi%20VA%20Cabs%2C%20do%20you%20cover%20rides%20from%20my%20location%3F"
+              href="https://wa.me/918072000428?text=Hi%20VA%20Cabs%2C%20do%20you%20cover%20rides%20from%20my%20location%3F"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#F5C518", textDecoration: "none", fontWeight: 700 }}
@@ -469,7 +469,7 @@ export default function ServiceAreasSection() {
           animation: pulseRadius 3s infinite ease-in-out;
         }
 
-        @media (min-width: 1600px) {
+        @media (min-width: 1200px) {
           .areas-site-container { max-width: 1520px !important; }
           .areas-split-layout { gap: 110px !important; }
           .route-map-box { max-width: 540px !important; }

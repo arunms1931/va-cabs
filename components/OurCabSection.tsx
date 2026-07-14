@@ -249,7 +249,7 @@ export default function VehiclesSection() {
           </div>
 
           <a
-            href="https://wa.me/919283455152?text=Hi%20VA%20Cabs%2C%20I%20would%20like%20to%20enquire%20about%20a%20vehicle%20booking."
+            href="https://wa.me/918072000428?text=Hi%20VA%20Cabs%2C%20I%20would%20like%20to%20enquire%20about%20a%20vehicle%20booking."
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -351,7 +351,7 @@ export default function VehiclesSection() {
           }
         }
 
-        @media (min-width: 1600px) {
+        @media (min-width: 1200px) {
           .vh-site-container { max-width: 1520px !important; }
           .vh-grid { gap: 32px !important; }
         }

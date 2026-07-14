@@ -115,7 +115,7 @@ export default function ReviewsSection() {
 
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "10px" }}>
             <a
-              href="https://wa.me/919283455152?text=Hi%20VA%20Cabs%2C%20I%20recently%20used%20your%20service%20and%20would%20like%20to%20share%20my%20feedback."
+              href="https://wa.me/918072000428?text=Hi%20VA%20Cabs%2C%20I%20recently%20used%20your%20service%20and%20would%20like%20to%20share%20my%20feedback."
               target="_blank"
               rel="noopener noreferrer"
               className="rev-cta-btn"

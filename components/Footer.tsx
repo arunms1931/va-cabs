@@ -20,9 +20,9 @@ const footerServices = [
   { label: "Outstation Travel", href: "#services" },
 ];
 
-const PHONE = "+919283455152";
-const PHONE_DISPLAY = "+91 92834 55152";
-const WA_LINK = `https://wa.me/919283455152?text=Hi%20VA%20Cabs%2C%20I%20would%20like%20to%20book%20a%20cab.`;
+const PHONE = "+918072000428";
+const PHONE_DISPLAY = "+91 80720 00428";
+const WA_LINK = `https://wa.me/918072000428?text=Hi%20VA%20Cabs%2C%20I%20would%20like%20to%20book%20a%20cab.`;
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -222,7 +222,7 @@ export default function Footer() {
           color: #F5C518 !important;
         }
 
-        @media (min-width: 1600px) {
+        @media (min-width: 1200px) {
           .footer-site-container { max-width: 1520px !important; }
           .footer-grid { gap: 80px !important; }
         }

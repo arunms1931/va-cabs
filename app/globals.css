@@ -42,7 +42,7 @@ body {
 /* ─── Unified Layout Container ──────────────────────────────────────── */
 .site-container {
   width: 100%;
-  max-width: 1300px; /* Increased to 1300px for optimized desktop layout space utilization */
+  max-width: 1520px; /* Restored to 1520px for wider layout */
   margin-left: auto;
   margin-right: auto;
   padding-left: 24px;
