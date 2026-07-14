@@ -16,7 +16,7 @@ const footerServices = [
   { label: "Local Cab", href: "#services" },
   { label: "Hourly Packages", href: "#services" },
   { label: "Full-Day Cab", href: "#services" },
-  { label: "Airport Round Trip", href: "#services" },
+  { label: "Airport Two-Way Travel", href: "#services" },
   { label: "Outstation Travel", href: "#services" },
 ];
 

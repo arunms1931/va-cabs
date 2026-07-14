@@ -120,7 +120,7 @@ export default function ContactSection() {
               fontFamily: "var(--font-inter)",
             }}
           >
-            Direct booking &bull; Human support &bull; Travel based on availability
+            Direct booking &bull; Human support &bull; Cab service available anytime
           </motion.p>
         </div>
       </div>

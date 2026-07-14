@@ -12,7 +12,7 @@ const coverage = [
   {
     Icon: Navigation,
     title: "Chennai Suburbs & Airport",
-    desc: "Comfortable drop-off travel to Chennai International Airport, railway stations, business hubs, and city suburbs.",
+    desc: "Comfortable two-way travel to Chennai International Airport, railway stations, business hubs, and city suburbs, with return travel in the same cab.",
   },
   {
     Icon: Globe,

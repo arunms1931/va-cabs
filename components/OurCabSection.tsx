@@ -131,7 +131,7 @@ export default function VehiclesSection() {
               color: "var(--text-secondary)",
             }}
           >
-            Tell us about your trip and we&apos;ll help arrange a suitable vehicle based on your travel needs and availability.
+            Tell us about your trip and plan your two-way travel directly with us. Cab service is available anytime for planned travel and return trips.
           </motion.p>
         </div>
 
@@ -244,7 +244,7 @@ export default function VehiclesSection() {
           <div style={{ display: "flex", alignItems: "flex-start", gap: "12px", flex: 1 }}>
             <Info size={18} style={{ color: "#F5C518", flexShrink: 0, marginTop: "2px" }} />
             <p style={{ color: "var(--text-secondary)", fontSize: "0.95rem", lineHeight: 1.5, fontFamily: "var(--font-inter)" }}>
-              <strong>Notice:</strong> Vehicle type arrangement is subject to travel requirements and availability. Speak with us directly to plan your specific trip.
+              <strong>Notice:</strong> Vehicle type arrangement is based on travel requirements. Speak with us directly to plan your specific trip.
             </p>
           </div>
 

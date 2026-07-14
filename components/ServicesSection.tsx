@@ -12,57 +12,57 @@ const services: Service[] = [
   {
     Icon: Car,
     title: "Local Cab",
-    desc: "Comfortable point-to-point rides for your everyday travel, appointments, and local visits.",
+    desc: "Comfortable local two-way travel for your everyday visits, appointments, and return journeys in the same cab.",
   },
   {
     Icon: Clock,
     title: "Hourly Packages",
-    desc: "Flexible hourly cab hire for errands, multiple visits, and errands.",
+    desc: "Flexible hourly cab hire for errands and multiple visits, returning in the same cab.",
   },
   {
     Icon: CalendarDays,
     title: "Full-Day Cab",
-    desc: "Dedicated day-long bookings for business meetings, sightseeing, or outings.",
+    desc: "Dedicated day-long bookings for business meetings, sightseeing, or outings, returning in the same cab.",
   },
   {
     Icon: Plane,
-    title: "Airport Round Trip",
-    desc: "Planned travel from your pickup location to the airport, with return travel arranged based on your journey plan.",
+    title: "Airport Two-Way Travel",
+    desc: "Travel to the airport and return in the same cab as part of your planned trip.",
   },
   {
     Icon: TrainFront,
-    title: "Railway Station Round Trip",
-    desc: "Planned travel from your pickup location to the railway station, with return travel arranged based on your journey plan.",
+    title: "Railway Station Two-Way Travel",
+    desc: "Travel to the railway station and return in the same cab as part of your planned trip.",
   },
   {
     Icon: MapPinned,
     title: "Outstation Travel",
-    desc: "Long-distance travel to other districts and major cities across Tamil Nadu.",
+    desc: "Two-way long-distance travel to other districts and major cities, returning in the same cab.",
   },
   {
     Icon: RefreshCcw,
-    title: "Round Trip",
-    desc: "Comfortable outstation journeys with same-day or multi-day return convenience.",
+    title: "Two-Way Outstation Travel",
+    desc: "Travel to your destination and return in the same cab as part of your planned outstation trip.",
   },
   {
     Icon: HeartPulse,
     title: "Hospital Visits",
-    desc: "Comfortable cab travel for hospital visits and return journeys based on your travel needs.",
+    desc: "Comfortable two-way cab travel for hospital visits, returning in the same cab.",
   },
   {
     Icon: Sparkles,
     title: "Wedding & Events",
-    desc: "Coordinated guest and family transport solutions for weddings and functions.",
+    desc: "Coordinated guest and family transport solutions for weddings and functions, returning in the same cab.",
   },
   {
     Icon: Church,
     title: "Temple Trips",
-    desc: "Planned cab travel for temple visits, family journeys and return travel based on your trip.",
+    desc: "Planned temple visits and family journeys, returning in the same cab as part of your trip.",
   },
   {
     Icon: Moon,
     title: "Early / Late Travel",
-    desc: "Pre-bookable travel for early morning or late-night journeys, based on availability.",
+    desc: "Cab service available anytime for planned early morning or late-night return travel.",
   },
 ];
 
