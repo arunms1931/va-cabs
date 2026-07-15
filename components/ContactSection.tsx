@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Phone, MessageCircle } from "lucide-react";
 
-const PHONE = "+918072000428";
+const PHONE = "+919283455152";
 const WA_LINK = `https://wa.me/918072000428?text=Hi%20VA%20Cabs%2C%20I%20would%20like%20to%20book%20a%20cab.`;
 
 const easeCurve = [0.22, 1, 0.36, 1] as const;

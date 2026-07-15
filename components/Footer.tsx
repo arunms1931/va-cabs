@@ -20,7 +20,7 @@ const footerServices = [
   { label: "Outstation Travel", href: "#services" },
 ];
 
-const PHONE = "+918072000428";
+const PHONE = "+919283455152";
 const PHONE_DISPLAY = "+91 80720 00428";
 const WA_LINK = `https://wa.me/918072000428?text=Hi%20VA%20Cabs%2C%20I%20would%20like%20to%20book%20a%20cab.`;
 
