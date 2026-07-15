@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Shield, UserCheck, CheckCircle, MessageCircle, Phone, Headphones } from "lucide-react";
 
+const PHONE = "+919283455152";
 const WA_LINK = `https://wa.me/918072000428?text=Hi%20VA%20Cabs%2C%20I%20would%20like%20to%20book%20a%20cab.`;
 const HERO_IMAGE = "/chennai-taxi-hero.png";
 
@@ -172,7 +173,7 @@ export default function HeroSection() {
               Plan Your Trip
             </a>
             <a
-              href="tel:+918072000428"
+              href={`tel:${PHONE}`}
               className="hero-btn-call"
             >
               <Phone size={18} />

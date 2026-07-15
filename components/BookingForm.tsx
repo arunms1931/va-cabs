@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { MapPin, Navigation, Calendar, Clock, MessageCircle, CheckCircle2 } from "lucide-react";
 
-const PHONE = "919283455152";
+const WHATSAPP = "918072000428";
 
 function buildWAMessage(form: { pickup: string; drop: string; date: string; time: string }) {
   const lines = [
@@ -107,7 +107,7 @@ export default function BookingForm() {
       alert("Please enter at least pickup and drop locations.");
       return;
     }
-    window.open(`https://wa.me/${PHONE}?text=${buildWAMessage(form)}`, "_blank");
+    window.open(`https://wa.me/${WHATSAPP}?text=${buildWAMessage(form)}`, "_blank");
     setSent(true);
     setTimeout(() => setSent(false), 4000);
   };

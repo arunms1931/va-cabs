@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://va-cabs.pages.dev/"),
   title: "VA Cabs | Cab Service in Thirumazhisai & Chennai",
   description:
-    "Book direct cab rides with VA Cabs in Thirumazhisai and Chennai. We provide reliable local travel, airport transfers, planned journeys, and outstation trips. Call or WhatsApp +91 80720 00428 to book.",
+    "Book direct cab rides with VA Cabs in Thirumazhisai and Chennai. We provide reliable local travel, airport transfers, planned journeys, and outstation trips. Call +91 92834 55152 or WhatsApp +91 80720 00428 to book.",
   keywords:
     "VA Cabs, cab service Thirumazhisai, taxi Chennai, direct cab booking, airport cab Chennai, local taxi Thirumazhisai",
   alternates: {
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
     siteName: "VA Cabs",
     title: "VA Cabs | Cab Service in Thirumazhisai & Chennai",
     description:
-      "Book direct cab rides with VA Cabs in Thirumazhisai and Chennai. We provide reliable local travel, airport transfers, planned journeys, and outstation trips. Call or WhatsApp +91 80720 00428 to book.",
+      "Book direct cab rides with VA Cabs in Thirumazhisai and Chennai. We provide reliable local travel, airport transfers, planned journeys, and outstation trips. Call +91 92834 55152 or WhatsApp +91 80720 00428 to book.",
   },
   twitter: {
     card: "summary",
     title: "VA Cabs | Cab Service in Thirumazhisai & Chennai",
     description:
-      "Book direct cab rides with VA Cabs in Thirumazhisai and Chennai. We provide reliable local travel, airport transfers, planned journeys, and outstation trips. Call or WhatsApp +91 80720 00428 to book.",
+      "Book direct cab rides with VA Cabs in Thirumazhisai and Chennai. We provide reliable local travel, airport transfers, planned journeys, and outstation trips. Call +91 92834 55152 or WhatsApp +91 80720 00428 to book.",
   },
 };
 
@@ -56,7 +56,7 @@ const jsonLd = {
     "@type": "LocalBusiness",
     "name": "VA Cabs",
     "image": "https://va-cabs.pages.dev/va-cabs-logo.png",
-    "telephone": "+91 80720 00428",
+    "telephone": "+91 92834 55152",
     "url": "https://va-cabs.pages.dev/",
     "address": {
       "@type": "PostalAddress",
